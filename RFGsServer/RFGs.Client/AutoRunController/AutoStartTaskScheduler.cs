@@ -4,7 +4,7 @@ using System.Reflection;
 
 namespace RFGs.Client.AutoRunController
 {
-    class AutoStartTaskScheduler : IAutoRun
+    internal class AutoStartTaskScheduler : IAutoRun
     {
         public void Setup()
         {

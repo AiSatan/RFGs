@@ -1,5 +1,4 @@
-﻿
-using RFGs.Client.AutoRunController;
+﻿using RFGs.Client.AutoRunController;
 using System;
 using System.Linq;
 using System.Reflection;

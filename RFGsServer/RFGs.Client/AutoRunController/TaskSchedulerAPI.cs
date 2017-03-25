@@ -22,11 +22,19 @@ namespace RFGs.Client.AutoRunController
             }
         }
 
+        internal static bool TaskExist(string taskName)
+        {
+            using (TaskService ts = new TaskService())
+            {
+                return ts.RootFolder.Tasks.Any(t => t.Name == taskName);
+            }
+        }
+
         internal static void DeleteTask(string taskName)
         {
             using (TaskService ts = new TaskService())
             {
-                if (ts.RootFolder.Tasks.Any(t => t.Name == taskName))
+                if (TaskExist(taskName))
                 {
                     ts.RootFolder.DeleteTask(taskName);
                 }
