@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RFGsServer", "RFGsServer\RFGsServer.csproj", "{9767846B-02C3-49E0-B26D-3817A7F6C90C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RFGs.Server", "RFGsServer\RFGs.Server.csproj", "{9767846B-02C3-49E0-B26D-3817A7F6C90C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AB7130B1-1F13-4D6B-95D3-62D67BA94700}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.Tests", "Server.Tests\Server.Tests.csproj", "{2C73588D-63AF-4261-A27E-87D6DD121E03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RFGs.Client", "RFGs.Client\RFGs.Client.csproj", "{A0989896-29B0-490E-9A97-02E53A8C351E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +21,19 @@ Global
 		{9767846B-02C3-49E0-B26D-3817A7F6C90C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9767846B-02C3-49E0-B26D-3817A7F6C90C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9767846B-02C3-49E0-B26D-3817A7F6C90C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C73588D-63AF-4261-A27E-87D6DD121E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C73588D-63AF-4261-A27E-87D6DD121E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C73588D-63AF-4261-A27E-87D6DD121E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C73588D-63AF-4261-A27E-87D6DD121E03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0989896-29B0-490E-9A97-02E53A8C351E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0989896-29B0-490E-9A97-02E53A8C351E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0989896-29B0-490E-9A97-02E53A8C351E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0989896-29B0-490E-9A97-02E53A8C351E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2C73588D-63AF-4261-A27E-87D6DD121E03} = {AB7130B1-1F13-4D6B-95D3-62D67BA94700}
 	EndGlobalSection
 EndGlobal

@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("RFGs.Server")]
+[assembly: AssemblyTitle("RFGs.Client")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("RFGs.Server")]
-[assembly: AssemblyCopyright("Copyright © RED 2017")]
+[assembly: AssemblyProduct("RFGs.Client")]
+[assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9767846b-02c3-49e0-b26d-3817a7f6c90c")]
+[assembly: Guid("a0989896-29b0-490e-9a97-02e53a8c351e")]
 
 // Version information for an assembly consists of the following four values:
 //
